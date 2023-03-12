@@ -1,0 +1,16 @@
+Code:
+import java.util.*;
+
+public class S123 {
+    public static void printMyName(String name){
+        System.out.println(name);
+
+    }
+    public static void main(String[] args){
+        Scanner obj=new Scanner(System.in);
+        String name=obj.next();
+        printMyName(name);
+    }
+}
+OutPut:
+whatever String that you enters that it gives as output
