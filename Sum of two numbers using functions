@@ -1,0 +1,21 @@
+
+import java.util.*;
+
+public class S123 {
+    public static int printMyName(int a,int b){
+        int sum=a+b;
+        return sum ;
+
+    }
+    public static void main(String[] args){
+        Scanner obj=new Scanner(System.in);
+        int a=obj.nextInt();
+        int b=obj.nextInt();
+        System.out.println("sum of two numbers is "+printMyName(a,b));
+
+    }
+}
+Output:
+2
+3
+sum of two numbers is 5
