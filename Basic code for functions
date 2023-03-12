@@ -4,6 +4,7 @@ import java.util.*;
 public class S123 {
     public static void printMyName(String name){
         System.out.println(name);
+        return;
 
     }
     public static void main(String[] args){
