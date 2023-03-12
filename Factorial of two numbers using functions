@@ -1,0 +1,28 @@
+Code:
+
+import java.util.*;
+
+public class S123 {
+    public static void printMyName(int a){
+        if(a<0){
+            System.out.println("invalid input");
+            return;
+        }
+        int factorial=1;
+        for(int i=1;i<=a;i++){
+            factorial=factorial*i;
+        }
+        System.out.println("factorial of number is "+factorial);
+        return;
+
+    }
+    public static void main(String[] args){
+        Scanner obj=new Scanner(System.in);
+        int a=obj.nextInt();
+        printMyName(a);
+
+    }
+}
+Output:
+5
+factorial of number is 120
