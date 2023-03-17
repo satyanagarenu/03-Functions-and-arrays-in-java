@@ -1,0 +1,25 @@
+Code:
+import java.util.*;
+
+public class S123 {
+    public static void main(String[] arsg){
+        Scanner obj=new Scanner(System.in);
+        int[] name=new int[3];
+        for(int i=0;i<3;i++){
+            name[i]=obj.nextInt();
+        }
+        for(int i=0;i<3;i++){
+            System.out.println(name[i]);
+        }
+
+    }
+}
+output:
+(input):
+12
+13
+14
+(output):
+12
+13
+14
