@@ -1,0 +1,22 @@
+Code:
+package snr;
+import java.util.*;
+public class Mask {
+    public static void main(String[] args) {
+        System.out.println("enter your name and age");
+        System.out.println(getname()+" "+getage() );
+
+    }
+    public static String getname(){
+        return new Scanner(System.in).nextLine();
+
+    }
+    public static int getage(){
+        return new Scanner(System.in).nextInt();
+    }
+}
+Output:
+enter your name and age
+Satya
+22
+Satya 22
