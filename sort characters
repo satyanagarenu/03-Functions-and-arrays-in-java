@@ -1,0 +1,12 @@
+import java.util.*;
+
+public class Github {
+    public static void main(String[] args) {
+        char[] numbers = {'a','e','b'};
+        Arrays.sort(numbers);
+        System.out.println(Arrays.toString(numbers));
+    }
+}
+
+Output:
+[a, b, e]
