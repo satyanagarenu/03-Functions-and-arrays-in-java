@@ -1,0 +1,12 @@
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Github {
+    public static void main(String[] args) {
+        int[] numbers = {1, 3, 4, 9, 5, 6};
+        Arrays.sort(numbers);
+        System.out.println(Arrays.toString(numbers));
+    }
+}
+Output
+[1, 3, 4, 5, 6, 9]
