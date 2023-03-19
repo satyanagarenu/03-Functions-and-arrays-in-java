@@ -1,0 +1,31 @@
+Code:
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner obj = new Scanner(System.in);
+        int a = obj.nextInt();
+        int[] numbers = new int[a];
+        int[] babu=new int[a];
+        System.out.println("Enter " + a + " numbers");
+        for (int i = 0; i < numbers.length; i++) {
+            numbers[i] = obj.nextInt();
+        }
+        int j=0;
+        int k=numbers.length;
+
+        for (int i = 0; i < numbers.length; i++) {
+            if (numbers[i] % 2==0)
+                babu[j++]=numbers[i];
+            else
+                babu[k--]=numbers[i];
+
+
+        }
+        System.out.println(Arrays.toString(babu)); // print statement corrected
+    }
+}
+Output:
+sum of numbers in a0 6
+sum of numbers in a1 15
+sum of numbers in a2 18
