@@ -1,0 +1,23 @@
+import java.util.*;
+public class Main {
+
+    public static void main(String[] args) {
+        int[][] satya = {{5, 8, 9 },
+                        {9,7,6},
+                {12,14,15}};
+        for(int i=0;i<3;i++){
+            for(int j=i;j<3;j++){
+                int temp=satya[i][j];
+                satya[i][j]=satya[j][i];
+                satya[j][i]=temp;
+
+            }
+
+
+        }
+        System.out.println(Arrays.deepToString(satya));
+
+
+    }
+}
+OUTPUT:[[5, 9, 12], [8, 7, 14], [9, 6, 15]]
